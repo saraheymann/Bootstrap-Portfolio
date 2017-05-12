@@ -4,8 +4,8 @@ body{
 .myName{
 	font-family: 'Titillium Web', sans-serif;
 }
-.navBarLinks{
-	margin-top: 30px;
+.navbar-brand{
+	margin-top: 10px;
 }
 .contentHeader{
 	font: 30px 'Titillium Web', sans-serif;
