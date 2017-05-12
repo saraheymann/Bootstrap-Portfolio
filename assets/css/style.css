@@ -1,0 +1,57 @@
+body{
+	background-color: #e6eeff !important;
+}
+.myName{
+	font-family: 'Titillium Web', sans-serif;
+}
+.navBarLinks{
+	margin-top: 30px;
+}
+.contentHeader{
+	font: 30px 'Titillium Web', sans-serif;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	border-bottom: solid;
+}
+#about{
+	width: 400px;
+}
+#connect{
+	width: 225px;
+}
+.contentBox{
+	height: 350px;
+	width: 400px;
+}
+#profileBio{
+	font: 15px 'Titillium Web', sans-serif;
+	margin-bottom: 10px;
+	text-align: left;
+	height: 300px;
+}
+.iconPic{
+	height: 60px;
+	width: 60px;
+}
+.nameForm{
+	width: 400px;
+}
+#message{
+	height: 150px;
+}
+.foot{
+	height: 100px;
+	width: 100%;
+	background-color: #909090;
+	border-top: solid 5px #ff8566;
+	background-image: url(http://www.epi-centre.com/basics/pixels/images/pixels6.jpg);
+	text-align: center;
+	font: 15px 'Montserrat', sans-serif;
+	padding-top: 50px;
+	font-color: #6699ff;
+}
+.portfolioPic{
+	height: 175px;
+	width: 175px;
+	margin-bottom: 20px;
+}
