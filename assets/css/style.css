@@ -25,10 +25,21 @@ body{
 	font-family: 'Titillium Web', sans-serif;
 }
 #profileBio{
-	font: 15px 'Titillium Web', sans-serif;
+	font: 16px 'Titillium Web', sans-serif;
 	margin-bottom: 15px;
-	text-align: left;
 	height: 300px;
+}
+@keyframes psych{
+	0%{color: blue;}
+	25%{color: red;}
+	50%{color: green;}
+	100%{color: orange;}
+}
+.bioAnimation{
+	color: blue;
+	animation-name: psych;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
 }
 .iconPic{
 	height: 60px;
@@ -40,10 +51,25 @@ body{
 #message{
 	height: 150px;
 }
-.portfolioPic{
+.img-fluid{
 	height: 175px;
 	width: 175px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	border: 2px solid grey;
+}
+.btn{
+	position: absolute;
+	width: 175px;
+	height: 30px;
+	opacity: 0.8;
+	font:'Titillium Web', sans-serif;
+}
+.topButton{
+	margin-top: 115px;
+}
+.bottomButton{
+	margin-top: 320px;
+	margin-left: -179px;
 }
 .foot{
 	height: 100px;
