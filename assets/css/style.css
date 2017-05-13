@@ -82,3 +82,7 @@ body{
 	padding-top: 50px;
 	font-color: #6699ff;
 }
+@media (max-width: 767px){
+.text-xs-center{
+	text-align: center:;
+}
