@@ -66,10 +66,12 @@ body{
 }
 .topButton{
 	margin-top: 115px;
+	font-family: 'Titillium Web', sans-serif;
 }
 .bottomButton{
 	margin-top: 320px;
 	margin-left: -179px;
+	font-family: 'Titillium Web', sans-serif;
 }
 .foot{
 	height: 100px;
